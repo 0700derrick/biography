@@ -1,0 +1,243 @@
+body{
+    background-color: rgba(0, 0, 0, 0.986);
+    color: rgb(105, 103, 103);
+}
+
+a{
+    list-style: none;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+}
+
+a:hover{
+    color: purple;
+    text-decoration: none;
+}
+
+.home{
+    border: 1px solid gray;
+    margin-top: 1%;
+    padding-bottom: 1%;
+    background-color: rgba(128, 128, 128, 0.493);
+}
+
+li{
+    list-style: none;
+    font-weight: 200;
+    font-size: 19px;
+    color: white;
+    display: inline-block;
+    padding:0 8%;
+}
+
+ol{
+    text-align: center;
+    padding-bottom: 1.2%;
+    border-bottom: 1px solid purple;
+    background-color: rgba(0, 0, 0, 0.986);
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+
+h1{
+    color: purple;
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 200px;
+    border-radius: 500px;
+    margin-bottom: 3%;
+}
+
+#buttons{
+    text-align: center;
+    margin-bottom: 2%;
+    filter: drop-shadow(10px 10px 10px purple);
+    
+}
+
+.view-work{
+    background-color: gray;
+    border-radius: 500px;
+    padding-top: 1.7%;
+    padding-bottom: 1.9%;
+    padding-right: 2%;
+    padding-left: 2%;
+    display: inline-block;
+    border: 1px solid gray;
+    color: #000;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.view-work:hover{
+    color: rgb(209, 209, 209);
+}
+
+.contact-me{
+    background-color: rgba(88, 59, 59, 0);
+    border-radius: 500px;
+    padding-top: 1.7%;
+    padding-bottom: 1.9%;
+    padding-right: 2%;
+    padding-left: 2%;
+    display: inline-block;
+    border: 1px solid gray;    color: #000;
+    background-color: gray;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.contact-me:hover{
+    color: rgb(209, 209, 209);
+}
+
+
+.info{
+    text-align: center;
+    font-family: 'poppins',sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h6{
+    text-align: center;
+    color: gray;
+}
+
+.click:hover{
+    color: rgba(255, 0, 0, 0.445);
+    cursor: pointer;
+}
+
+hr{
+    border: 1px solid wheat;
+}
+
+
+
+#footer-section{
+    
+    max-width: 90%;
+    margin-right: 0%;
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+}
+
+h4{
+    
+    margin: 0px;
+}
+
+.footer-container{
+   margin: 0px;
+   position: relative;
+   left: 0%;
+}
+
+.social-media-heading{
+    position: relative;
+    right: 19%;
+}
+.facebook{
+    margin-bottom: 0%;
+    margin-top: 2%;
+    cursor: pointer;
+    color: rgba(144, 238, 144, 0.377);
+}
+
+.twitter{
+    margin-bottom: 0%;
+    margin-top: 0%;
+    cursor: pointer;
+    color: rgba(144, 238, 144, 0.377);
+}
+
+.huduma{
+    margin-bottom: 0%;
+    margin-top: 0%;
+    cursor: pointer;
+    color: rgba(144, 238, 144, 0.377);
+}
+
+.github{
+    margin-bottom: 0%;
+    margin-top: 0%;
+    cursor: pointer; 
+    color: rgba(144, 238, 144, 0.377);  
+}
+
+
+.footer-container1{
+    margin: 0px;
+    position: relative;
+    left: 5%;
+    max-width: 50%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.build{
+    margin: 0px;
+    position: relative;
+    left: 30%;
+}
+
+.build-info{
+    margin-right: 0%;
+    width: 75%;
+    text-align: center;
+}
+
+.help-content{
+    margin-left: 15%;
+    margin-right: 0%;
+}
+
+.feedback{
+    margin-left: 17%;
+    margin-top: 0%;
+}
+
+.community{
+    margin-bottom: 0%;
+}
+
+#fundibots-logo{
+    width: 40%;
+    float: left;
+    margin-top: 11px;
+}
+
+#huduma{
+    width: 250px;
+    border-radius: 0px;
+    margin-top: 90px;
+    height: 90px;
+    margin-right: 65%;
+}
+
+#centepay{
+    width: 300px;
+    border-radius: 0px;
+    margin-top: 50px;
+    float: right;
+}
+
+#bottom-text{
+    text-align: center;
+    color: purple;
+    font-size: 20px;
+}

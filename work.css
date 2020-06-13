@@ -1,0 +1,56 @@
+body{
+    background-color: rgba(0, 0, 0, 0.986);
+    color: rgb(105, 103, 103);
+}
+
+a:hover{
+    color: purple;
+    text-decoration: none;
+}
+
+.work{
+    border: 1px solid gray;
+    margin-top: 1%;
+    padding-bottom: 1%;
+    background-color: rgba(128, 128, 128, 0.493);
+}
+
+li{
+    list-style: none;
+    font-weight: 200;
+    font-size: 19px;
+    color: white;
+    display: inline-block;
+    padding:0 8%;
+}
+
+ol{
+    text-align: center;
+    padding-bottom: 1.2%;
+    border-bottom: 1px solid purple;
+    background-color: rgba(0, 0, 0, 0.986);
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+
+h4{
+    text-align: center;
+    color: rgb(187, 39, 187);
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+#mycontent{
+    background-image: url(images/shrub.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+h5{
+    text-align: center;
+    padding-top: 15%;
+    color: black;
+    text-decoration: underline;
+}
