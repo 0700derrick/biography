@@ -215,29 +215,64 @@ h4{
     margin-bottom: 0%;
 }
 
+
+
 #fundibots-logo{
-    width: 40%;
-    float: left;
-    margin-top: 11px;
+    border-radius: 0%;
 }
 
 #huduma{
-    width: 250px;
-    border-radius: 0px;
-    margin-top: 90px;
-    height: 90px;
-    margin-right: 65%;
+  border-radius: 0%;
 }
 
 #centepay{
-    width: 300px;
-    border-radius: 0px;
-    margin-top: 50px;
-    float: right;
+   border-radius: 0%;
+   margin-left: 20%;
+   margin-right:20%;
+}
+
+#fundibots-logo, #huduma, #centepay
+{
+    display: inline-block;
 }
 
 #bottom-text{
     text-align: center;
     color: purple;
     font-size: 20px;
+}
+
+#sign 
+{
+    text-align: center;
+    margin-left: 1.5%;
+    color: rgba(172, 172, 240, 0.575);
+}
+
+
+#dailyfeedscontainer
+{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+
+form
+{
+    display: inline-flex;
+}
+
+.email
+{
+    font-size: 19px;
+    
+    margin-bottom: 0px;
+}
+
+#rick
+{
+    
+    border-radius: 0%;
+    margin-left: 37%;
+    width: 30%;
 }
