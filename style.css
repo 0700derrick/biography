@@ -31,7 +31,6 @@ body
 
 ol
 {
-    padding: 40px;
     padding-top: 0px;
     text-align: center;
     border-bottom: 1px solid white;
@@ -55,7 +54,8 @@ a:hover
 #page
 {
     position: relative;
-    right: 35px;
+    right: 4px;
+    bottom: 10px;
 }
 
 li
@@ -74,6 +74,10 @@ span
     padding: 0px;
 }
 
+#pagehome
+{
+    color: rgb(30, 218, 30);
+}
 
 .fa-home
 {
