@@ -1,55 +1,122 @@
-body{
-    background-color: rgba(0, 0, 0, 0.986);
-    color: rgb(105, 103, 103);
+body
+{
+    background-color: black;
+    font-family: 'poppins', sans-serif;
+    color: wheat;
 }
 
-a{
-    list-style: none;
-    cursor: pointer;
+#navcontainer
+{
+   position: sticky;
+   top: 0px;
+   background-color: black;
+   z-index: 1;
+}
+
+
+#navname
+{
+   margin-top: 10px;
+   max-width: 900px;
+  
+   background-color: red;
+}
+
+#navderrick
+{
+    padding-top: 10px;
+    padding-top: 0px;
+    margin-left: 50px;   
+}
+
+ol
+{
+    padding: 60px;
+    padding-top: 0px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 0px;
+}
+
+a
+{
     list-style: none;
     text-decoration: none;
+    color: wheat;
 }
 
-a:hover{
-    color: purple;
-    text-decoration: none;
-}
-
-.home{
-    border: 1px solid gray;
-    margin-top: 1%;
-    padding-bottom: 1%;
-    background-color: rgba(128, 128, 128, 0.493);
-}
-
-li{
+a:hover
+{
     list-style: none;
-    font-weight: 200;
-    font-size: 19px;
-    color: white;
-    display: inline-block;
-    padding:0 8%;
+    text-decoration: none;
+    color: wheat;
 }
 
-ol{
-    text-align: center;
-    padding-bottom: 1.2%;
-    border-bottom: 1px solid purple;
-    background-color: rgba(0, 0, 0, 0.986);
-    position: sticky;
-    top: 0%;
-    z-index: 1;
+#page
+{
+    position: relative;
+    right: 35px;
 }
 
-h1{
-    color: purple;
+li
+{
+    list-style: none;
+    display: inline-flex;
+    padding: 40px;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+
+span
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.fa-home
+{
+    padding-right: 10px;
+    font-size: 40px;
+    color: rgb(30, 218, 30);
+}
+
+.fa-university
+{
+    padding-right: 10px;
+    font-size: 20px;
+    color: rgb(172, 167, 167);
+}
+
+.fa-gg
+{
+    padding-right: 10px;
+    font-size: 25px;
+    color:red;
+}
+
+.fa-book
+{
+    padding-right: 10px;
+    font-size: 20px;
+    color: rgb(50, 50, 241);
+}
+
+h1
+{
+    font-weight: 1px;
+    color: rgba(236, 11, 11, 0.986);
     text-align: center;
-    margin-bottom: 3%;
+    margin-bottom: 40px;
+    margin-top: 50px;
     font-size: 60px;
     font-weight: lighter;
+    
 }
 
-img{
+#profile
+{
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -58,221 +125,199 @@ img{
     margin-bottom: 3%;
 }
 
-#buttons{
+#detailone
+{
+    max-width: 800px;
     text-align: center;
-    margin-bottom: 2%;
-    filter: drop-shadow(10px 10px 10px purple);
-    
+    color: rgb(109, 106, 106);
 }
 
-.view-work{
-    background-color: gray;
-    border-radius: 500px;
-    padding-top: 1.7%;
-    padding-bottom: 1.9%;
-    padding-right: 2%;
-    padding-left: 2%;
-    display: inline-block;
-    border: 1px solid gray;
-    color: #000;
-    cursor: pointer;
-    font-size: 19px;
-}
-
-.view-work:hover{
-    color: rgb(209, 209, 209);
-}
-
-.contact-me{
-    background-color: rgba(88, 59, 59, 0);
-    border-radius: 500px;
-    padding-top: 1.7%;
-    padding-bottom: 1.9%;
-    padding-right: 2%;
-    padding-left: 2%;
-    display: inline-block;
-    border: 1px solid gray;    color: #000;
-    background-color: gray;
-    cursor: pointer;
-    font-size: 19px;
-}
-
-.contact-me:hover{
-    color: rgb(209, 209, 209);
-}
-
-
-.info{
-    text-align: center;
-    font-family: 'poppins',sans-serif;
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
-h6{
+#detailtwo
+{
+    max-width: 700px;
     text-align: center;
     color: gray;
 }
 
-.click:hover{
-    color: rgba(255, 0, 0, 0.445);
-    cursor: pointer;
+hr
+{
+    border-top: 1px solid purple;
 }
 
-hr{
-    border: 1px solid wheat;
-}
-
-
-
-#footer-section{
-    
-    max-width: 90%;
-    margin-right: 0%;
-    
+#footsection
+{
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-   
-}
-
-h4{
-    
-    margin: 0px;
-}
-
-.footer-container{
-   margin: 0px;
-   position: relative;
-   left: 0%;
-}
-
-.social-media-heading{
-    position: relative;
-    right: 19%;
-}
-.facebook{
-    margin-bottom: 0%;
-    margin-top: 2%;
-    cursor: pointer;
-    color: rgba(144, 238, 144, 0.377);
-}
-
-.twitter{
-    margin-bottom: 0%;
-    margin-top: 0%;
-    cursor: pointer;
-    color: rgba(144, 238, 144, 0.377);
-}
-
-.huduma{
-    margin-bottom: 0%;
-    margin-top: 0%;
-    cursor: pointer;
-    color: rgba(144, 238, 144, 0.377);
-}
-
-.github{
-    margin-bottom: 0%;
-    margin-top: 0%;
-    cursor: pointer; 
-    color: rgba(144, 238, 144, 0.377);  
-}
-
-
-.footer-container1{
-    margin: 0px;
-    position: relative;
-    left: 5%;
-    max-width: 50%;
-    margin-left: 0%;
-    margin-right: 0%;
-}
-
-.build{
-    margin: 0px;
-    position: relative;
-    left: 30%;
-}
-
-.build-info{
-    margin-right: 0%;
-    width: 75%;
+    margin-bottom: 30px;
     text-align: center;
 }
 
-.help-content{
-    margin-left: 15%;
-    margin-right: 0%;
-}
-
-.feedback{
-    margin-left: 17%;
-    margin-top: 0%;
-}
-
-.community{
-    margin-bottom: 0%;
-}
-
-
-
-#fundibots-logo{
-    border-radius: 0%;
-}
-
-#huduma{
-  border-radius: 0%;
-}
-
-#centepay{
-   border-radius: 0%;
-   margin-left: 20%;
-   margin-right:20%;
-}
-
-#fundibots-logo, #huduma, #centepay
+#build
 {
-    display: inline-block;
+    text-align: center;
+    margin-right: 50px;
+    color: rgb(112, 97, 97);
+    word-wrap: normal;
 }
 
-#bottom-text{
+#help
+{
+    color: gray;
+}
+
+
+
+#helptitle
+{
+  text-align: center;
+}
+
+#helpinfo
+{
+    color: rgb(112, 97, 97);
+}
+
+#find
+{
+    color: gray;
+}
+
+#huduma
+{
+    color: rgb(91, 91, 241);
+    font-size: 14px;
+}
+
+#facebook
+{
+    color: blue;
+    font-size: 14px;
+}
+
+#twitter
+{
+    color: rgb(58, 58, 214);
+    font-size: 14px;
+}
+
+#github
+{
+    color: rgb(117, 111, 111);
+    font-size: 14px;
+}
+
+#supported
+{
     text-align: center;
     color: purple;
-    font-size: 20px;
+    margin-bottom: 40px;
 }
 
-#sign 
+.fa-github
+{
+    color: rgb(117, 111, 111);
+}
+
+#fundi
+{
+    color: rgba(255, 166, 0, 0.699);
+}
+
+#centepay
+{
+    color: green;
+    margin-top: 50%;
+}
+
+#lastfootsection
+{
+    display: flex;
+    text-align: center;
+}
+
+#hudumaimage
+{
+    height: auto;
+}
+
+#signup
 {
     text-align: center;
-    margin-left: 1.5%;
-    color: rgba(172, 172, 240, 0.575);
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 45px;
 }
 
-
-#dailyfeedscontainer
+#emails
 {
     text-align: center;
-    margin-bottom: 0px;
 }
 
-
-form
+#emailword
 {
-    display: inline-flex;
+    color: gray;
 }
 
-.email
+::placeholder
 {
-    font-size: 19px;
-    
-    margin-bottom: 0px;
+    font-size: 13px;
+    text-align: center;
 }
 
-#rick
+.btn-primary
 {
-    
-    border-radius: 0%;
-    margin-left: 37%;
-    width: 30%;
+    filter: drop-shadow(10px 10px 10px rgb(43, 43, 99));
+    margin-bottom: 50px;
 }
+
+
+#clozedanger
+{
+    position: relative;
+    left: 13px;
+}
+
+#clozesuccess
+{
+    position: relative;
+    left: 13px;
+}
+
+#success-alert
+{
+    max-width: 400px;
+    text-align: center;
+}
+
+.alert-success
+{
+    color: green;
+    position: absolute;
+    z-index: 1px;
+}
+
+.fa-smile-o
+{
+    color: rgb(23, 85, 23);
+    position: relative;
+    right: 13px;
+}
+
+#danger-alert
+{
+    max-width: 300px;
+    text-align: center;
+}
+
+.alert-danger
+{
+    color: red;
+    position: absolute;
+    z-index: 1px;
+}
+
+.fa-frown-o
+{
+    position: relative;
+    right: 13px;
+}
+
