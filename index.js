@@ -3,6 +3,7 @@ onload
     (document.getElementById("pagehome").style.color="rgb(30, 218, 30)");
     (document.getElementById("alertdanger").style.display="none")
     document.getElementById("alertsuccess").style.display="none"
+    document.getElementById("inform").style.display="block"
 }
 
 document.getElementById("closedanger")
