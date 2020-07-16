@@ -74,11 +74,6 @@ span
     padding: 0px;
 }
 
-#pagehome
-{
-    color: rgb(30, 218, 30);
-}
-
 .fa-home
 {
     padding-right: 10px;
@@ -157,10 +152,7 @@ hr
 
 #build
 {
-    text-align: center;
-    margin-right: 50px;
     color: rgb(112, 97, 97);
-    word-wrap: normal;
 }
 
 #help
@@ -187,20 +179,30 @@ hr
 
 #huduma
 {
-    color: rgb(91, 91, 241);
+    color: gray;
     font-size: 14px;
 }
 
 #facebook
 {
-    color: blue;
+    color:gray;
     font-size: 14px;
+}
+
+.fa-facebook
+{
+    color: rgb(66, 66, 238);
 }
 
 #twitter
 {
-    color: rgb(58, 58, 214);
+    color: gray;
     font-size: 14px;
+}
+
+.fa-twitter
+{
+    color: rgb(88, 88, 228);
 }
 
 #github
@@ -247,25 +249,11 @@ hr
 {
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
     margin-left: 45px;
+    color: rgba(128, 128, 128, 0.521);
 }
 
-#emails
-{
-    text-align: center;
-}
-
-#emailword
-{
-    color: gray;
-}
-
-::placeholder
-{
-    font-size: 13px;
-    text-align: center;
-}
 
 .btn-primary
 {
@@ -274,13 +262,13 @@ hr
 }
 
 
-#clozedanger
+#closedanger
 {
     position: relative;
     left: 13px;
 }
 
-#clozesuccess
+#closesuccess
 {
     position: relative;
     left: 13px;
@@ -319,9 +307,41 @@ hr
     z-index: 1px;
 }
 
+
 .fa-frown-o
 {
     position: relative;
     right: 13px;
 }
+
+form
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+#emails
+{
+    color: gray;
+}
+
+#emailword
+{
+    color: gray;
+}
+
+::placeholder
+{
+    font-size: 13px;
+    text-align: center;
+}
+
+.btn-info
+{
+    border: 1px solid transparent;
+    position: relative;
+    left: 20px;
+}
+
 

@@ -1,28 +1,37 @@
-document.getElementById("clozedanger")
-document.getElementById("butt")
-document.getElementById("university")
-
-
-
-clozedanger.addEventListener("click", cdanger)
-function cdanger(ev)
+onload
 {
-    document.getElementById("danger-alert").style.display="none"
+    (document.getElementById("pagehome").style.color="rgb(30, 218, 30)");
+    (document.getElementById("alertdanger").style.display="none")
+    document.getElementById("alertsuccess").style.display="none"
 }
 
-butt.addEventListener("click", clickbutt)
-function clickbutt (ev)
+document.getElementById("closedanger")
+document.getElementById("closesuccess")
+
+closesuccess.addEventListener("click", buttt)
+function buttt (ev)
 {
-    document.getElementById("inpu")
-    if(inpu.value=="")
+    document.getElementById("alertsuccess").style.display="none"
+}
+
+
+closedanger.addEventListener("click", butt)
+function butt (ev)
+{
+    document.getElementById("alertdanger").style.display="none"
+}
+
+
+function dat()
+{
+    document.getElementById("inp")
+    if(inp.value=="")
     {
-        document.getElementById("adanger").style.display="block"
+        document.getElementById("alertdanger").style.display="block"
     }
-    
+
     else
     {
-        document.getElementById("asuccess").style.display="block"
+        document.getElementById("alertsuccess").style.display="block"
     }
 }
-
-

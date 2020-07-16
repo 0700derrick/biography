@@ -23,13 +23,13 @@
 
         
            <ol>
-               <li><a href="#"><span class="fa fa-home" id="home"></a></span><font id="pagehome">Home <font style="font-size: 12px;" id="page"><br>page</font></font></li>
+               <li><a href="#"><span class="fa fa-home" id="home"></a></span><font id="pagehome"><font style="font-size: 12px;" id="page"><br>page</font></font></li>
 
-               <li><a href="#"><span class="fa fa-university"></a>Skills</li>
+               <li><a href="skills.html"><span class="fa fa-university"></a>Skills</li>
 
                <li><a href="#"><span class="fa fa-gg" id="ggg"></a>Projects</span></li>
 
-               <li><a href="#"><span class="fa fa-book"></a></span>Contacts</li>
+               <li><a href="#"><span class="fa fa-book"></a></span>contact</li>
            </ol>
        </div>
 
@@ -66,13 +66,13 @@
             <div class="container">
                 <div class="col"><h4 id="find">Find me on</h4></div>
 
-                    <div class="col" ><a id="huduma" href="https://huduma.social/dericklara">huduma.social</a></div>
+                    <div class="col" ><a id="huduma" href="https://huduma.social/dericklara"><u>huduma.social</u></a></div>
 
-                        <div class="col" ><span class="fa fa-facebook"></span> <a id="facebook" href="https://www.facebook.com/lara.derick.1"> facebook</a></div>
+                        <div class="col" ><span class="fa fa-facebook"></span> <a id="facebook" href="https://www.facebook.com/lara.derick.1"><u>facebook</u></a></div>
 
-                        <div class="col" ><span class="fa fa-twitter"></span><a id="twitter" href="https://twitter.com/0700derrick"> twitter</a></div>
+                        <div class="col" ><span class="fa fa-twitter"></span><a id="twitter" href="https://twitter.com/0700derrick"><u> twitter</u></a></div>
 
-                        <div class="col"><span class="fa fa-github"></span> <a id="github" href="https://github.com/0700derrick"> github</a></div>
+                        <div class="col"><span class="fa fa-github"></span> <a id="github" href="https://github.com/0700derrick"> <u>github</u></a></div>
             </div>
         </div>  
 <!-------------------last foot section---------------------->
@@ -103,15 +103,15 @@
 
 <div class="container" id="success-alert">
     <div class="col">
-        <div class="alert alert-success collapse" id="asuccess">
-            <span class="fa fa-smile-o"> </span>Thank you for your Support <a href="#" class="close" data-dismiss="alert" id="clozesuccess">&times;</a>
+        <div class="alert alert-success fade show" id="alertsuccess">
+            <span class="fa fa-smile-o"> </span>Thank you for your Support <button class="close" id="closesuccess">&times;</button>
         </div>
     </div>
 </div>
 
 <div class="container" id="danger-alert">
-    <div class="alert alert-danger collapse" id="adanger">
-        <span class="fa fa-frown-o"></span> Please Input all Details <a href="" class="close" id="clozedanger" >&times;</a>
+    <div class="alert alert-danger fade show" id="alertdanger">
+        <span class="fa fa-frown-o"></span> Please Input all Details <button class="close" id="closedanger">&times;</button>
     </div>
 </div>
 
@@ -122,12 +122,13 @@
         <h6 id="signup">Sign up for daily News feeds</h6>
     </div>
 
+<form action="#">
 
-    <div class="container" id="emails">
-        <span id="emailword">Email</span> <strong>:</strong> <input type="email" placeholder="input email please" id="inpu" required>
-        <br> <br>
-        <button id="butt" class="btn btn-primary">Send</button>
-    </div>
+   <span id="emails">Email : </span> <input type="email" placeholder="Input email please" id="inp" required> <br> <br>
+
+   <button onclick="dat()" id="btt" type="button" class="btn-sm btn-info">Submit</button>
+</form>
+  
 
     
 
