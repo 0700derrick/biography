@@ -67,21 +67,20 @@ li
     font-size: 50px;
     color: rgb(30, 218, 30);
     position: relative;
-    bottom: 7px;
     left: 15px;
 }
 
 .fa-code
 {
     
-    font-size: 25px;
+    font-size: 30px;
     color: rgb(177, 138, 9)
 }
 
 .fa-gg
 {
     padding-right: 10px;
-    font-size: 25px;
+    font-size: 30px;
     color:red;
 }
 
@@ -106,7 +105,7 @@ li
 .fa-book
 {
     padding-right: 10px;
-    font-size: 20px;
+    font-size: 30px;
     color: rgb(50, 50, 241);
 }
 
@@ -126,6 +125,8 @@ li
   position: absolute;
   z-index: 1;
   text-align: center;
+  animation: drop 2s ease;
+  left: 110px;
 }
 
 #inform
@@ -366,3 +367,16 @@ form
 }
 
 
+
+@keyframes drop
+{
+    0%{
+        opacity: 0px;
+        transform: translateY(-120px);
+    }
+
+    100%{
+        opacity: 1px;
+        transform: translateY(0px);
+    }
+}
