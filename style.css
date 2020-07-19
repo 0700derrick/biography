@@ -95,7 +95,7 @@ li
 
 #skills
 {
-    color: gray;
+    color: rgb(207, 191, 191);
     font-size: 17px;
     position: relative;
     right:44px;
@@ -104,7 +104,7 @@ li
 
 #projects
 {
-    color: gray;
+    color: rgb(207, 191, 191);
     font-size: 17px;
     position: relative;
     right:55px;
@@ -113,7 +113,7 @@ li
 
 #contact
 {
-    color: gray;
+    color: rgb(207, 191, 191);
     font-size: 17px;
     position: relative;
     right:55px;
