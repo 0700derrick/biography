@@ -35,7 +35,8 @@ ol
     border-bottom: 1px solid white;
     padding-bottom: 0px; 
     background-image: url(images/shrub2.jpg);
-    background-size: 359px;
+    background-size: 300px;
+    background-repeat: no-repeat;
 }
 
 a
