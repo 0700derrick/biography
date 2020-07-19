@@ -33,7 +33,7 @@ ol
     padding-top: 0px;
     text-align: center;
     border-bottom: 1px solid white;
-    padding-bottom: 0px;
+    padding-bottom: 0px; 
 }
 
 a
@@ -315,6 +315,7 @@ hr
 {
     max-width: 400px;
     text-align: center;
+    
 }
 
 .alert-success
@@ -393,5 +394,35 @@ form
     100%{
         opacity: 1px;
         transform: translateY(0px);
+    }
+}
+
+
+@media all and (max-width: 500px)
+{
+
+    #hom{ 
+          position: relative;
+          right: 100px;
+          top: 15px;
+    }
+
+    #skill{
+        position: relative;
+        bottom: 90px;
+        left: 100px;
+        right: 100px;
+    }
+
+    #proj {
+       position: relative;
+       right: 60px;
+       
+    }
+
+    #cont{
+        position: relative;
+        bottom: 90px;
+        left: 120px;
     }
 }
