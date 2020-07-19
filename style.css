@@ -34,6 +34,8 @@ ol
     text-align: center;
     border-bottom: 1px solid white;
     padding-bottom: 0px; 
+    background-image: url(images/shrub.jpg);
+    background-size: 500px;
 }
 
 a
@@ -398,7 +400,7 @@ form
 }
 
 
-@media all and (max-width: 360px)
+@media all and (max-width: 300px)
 {
 
     #hom{ 
