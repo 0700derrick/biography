@@ -13,6 +13,7 @@ body
    z-index: 1;
 }
 
+
 #navname
 {
    margin-top: 10px;
@@ -20,12 +21,22 @@ body
   background-color: red;
 }
 
+#navderrick
+{
+    padding-top: 10px;
+    padding-top: 0px;
+    margin-left: 50px;   
+}
+
 ol
 {
     padding-top: 0px;
     text-align: center;
     border-bottom: 1px solid white;
-    padding-bottom: 0px;
+    padding-bottom: 0px; 
+    background-image: url(images/development.jpg);
+    background-size: 300px;
+    background-repeat: no-repeat;
 }
 
 a
@@ -49,7 +60,7 @@ li
     display: inline-flex;
     padding: 40px;
     padding-top: 20px; 
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     font-size: 15px;
 }
 
@@ -76,22 +87,39 @@ li
     color:red;
 }
 
+#page
+{
+    position: relative;
+    top: 25px;
+    right: 24px;
+}
+
 #skills
 {
-    color: gray;
+    color: rgb(207, 191, 191);
     font-size: 17px;
+    position: relative;
+    right:44px;
+    top: 30px;
+    color: rgb(177, 138, 9)
 }
 
 #projects
 {
-    color: gray;
+    color: rgb(207, 191, 191);
     font-size: 17px;
+    position: relative;
+    right:55px;
+    top: 30px;
 }
 
 #contact
 {
-    color: gray;
+    color: rgb(207, 191, 191);
     font-size: 17px;
+    position: relative;
+    right:55px;
+    top: 30px;
 }
 
 .fa-book
@@ -101,3 +129,8 @@ li
     color: rgb(50, 50, 241);
 }
 
+h1
+{
+    text-align: center;
+    color: rgb(177, 138, 9)
+}

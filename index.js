@@ -26,7 +26,7 @@ function butt (ev)
 function dat()
 {
     document.getElementById("inp")
-    if(inp.value=="")
+    if(inp.value.trim()=="")
     {
         document.getElementById("alertdanger").style.display="block"
     }
